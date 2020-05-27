@@ -22,7 +22,7 @@
 			"ammoMultiplier": 1,
 			"splashDamage": 30,
 			"hitSize":5,
-			"fragBullets":5,
+			"fragBullets":2,
 			"fragBullet": "arc"
 		}
 	}
