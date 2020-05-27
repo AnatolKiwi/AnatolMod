@@ -1,0 +1,31 @@
+{
+	"name": "Omega Crawler Factory",
+	"description": "Makes Omega Crawler Suicide Units",
+	"type": "UnitFactory",
+	"unitType": "omega-crawler",
+	"size": 2,
+	"produceTime": 600,
+	"maxSpawn":2,
+	"consumes": {
+		"power": 2.5,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 25},
+				{"item": "redstone", "amount": 50},
+				{"item": "titanium", "amount": 75},
+				{"item":"surge-alloy","amount":10},
+				{"item": "graphite", "amount":100},
+				{"item": "redBullet", "amount": 1}
+			]
+		}
+	},
+	"category": "units",
+	"research": "wraith-factory",
+	"requirements": [
+		{ "item": "redstone", "amount": 200 },
+		{ "item": "surge-alloy", "amount": 50 },
+		{ "item": "silicon", "amount": 100 },
+		{ "item": "titanium", "amount": 200 }
+		{ "item": "thorium", "amount": 100}
+	]
+}

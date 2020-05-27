@@ -1,0 +1,29 @@
+{
+	"type": "groundUnit",
+	"name": "Omega Crawler",
+	"description": "Releases a red bullet and dies",
+	"speed": 0.1,
+	"flying": false,
+	"health": 90,
+	"engineOffset": 5.5,
+	"range": 160,
+	"weapon": {
+		"name": "kaboomer",
+		"length": 1.5,
+		"reload": 10,
+		"bullet": {
+			"speed": 1.0,
+			"damage": 500,
+			"bulletWidth": 30,
+			"bulletHeight": 50,
+			"shootEffect": "blockExplosion",
+			"smokeEffect": "blockExplosionSmoke",
+			"killShooter":true,
+			"ammoMultiplier": 1,
+			"splashDamage": 30,
+			"hitSize":5,
+			"fragBullets":5,
+			"fragBullet": "arc"
+		}
+	}
+}

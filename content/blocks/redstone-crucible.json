@@ -1,0 +1,28 @@
+{
+	"type": "GenericCrafter",
+	"name": "Redstone Crucible",
+	"description": "Melts redstone down for use in crafting.",
+	"liquidCapacity": 50,
+	"outputLiquid": {"liquid": "molten-redstone", "amount": 5.0},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2,
+		"item": "redstone"
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 100 },
+		{"item":"redstone", "amount":50},
+		{"item":"phase-fabric", "amount":50},
+		{"item":"surge-alloy","amount":20},
+		{ "item": "copper", "amount": 160 },
+		{ "item": "silicon", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

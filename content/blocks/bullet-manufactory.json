@@ -1,0 +1,32 @@
+{
+	"type": "GenericCrafter",
+	"name": "Bullet Manufactory",
+	"description": "Melts redstone down for use in crafting.",
+	"liquidCapacity": 50,
+	"outputItem": {"item":"redBullet", "amount":1}
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.5,
+		"items": {
+			items: [
+				{"item":"blast-compound", "amount":2},
+				{"item":"silicon", "amount":3},
+				{"item":"lead","amount":5}
+			]
+		},
+		"liquid": {"liquid": "molten-redstone", "amount": 0.3}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 100 },
+		{ "item": "copper", "amount": 160 },
+		{ "item": "silicon", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

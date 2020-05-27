@@ -1,0 +1,6 @@
+{
+	"type": "resource",
+	"name": "Redstone Bullet",
+	"description": "Used in big guns",
+	"explosiveness": 0.2
+}
