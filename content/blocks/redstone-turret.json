@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
 	"name": "Redstone Turret",
-	"description": "Shoots heavy redstone bullets"
+	"description": "Shoots heavy redstone bullets or copper"
 	"health": 2000,
 	"size": 2,
 	"reload": 20,
@@ -25,7 +25,7 @@
 		},
 		"copper": {
 			"speed": 10.0,
-			"damage": 9,
+			"damage": 14,
 			"bulletWidth": 5,
 			"bulletHeight": 4,
 			"shootEffect": "shootSmall",
