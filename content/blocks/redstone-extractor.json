@@ -14,10 +14,10 @@
 		"items": {
 			items: [
 				{"item":"coal", "amount":1},
-				{"item":"scrap", "amount":1}
+				{"item":"sand", "amount":2}
 			]
 		},
-		"liquid": {"liquid": "slag", "amount": 0.25}
+		"liquid": {"liquid": "water", "amount": 0.25}
 	},
 	"requirements": [
 		{ "item": "thorium", "amount": 100 },
