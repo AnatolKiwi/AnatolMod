@@ -1,0 +1,31 @@
+{
+	"type": "GenericCrafter",
+	"name": "Redstone Extractor",
+	"description": "Extracts redstone from scrap and coal",
+	"liquidCapacity": 50,
+	"outputItem": {"item":"redstone", "amount":1}
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.5,
+		"items": {
+			items: [
+				{"item":"coal", "amount":1},
+				{"item":"scrap", "amount":1}
+			]
+		},
+		"liquid": {"liquid": "slag", "amount": 0.25}
+	},
+	"requirements": [
+		{ "item": "thorium", "amount": 100 },
+		{ "item": "titanium", "amount": 160 },
+		{ "item": "surge-alloy", "amount": 150 }
+	],
+	"category": "crafting",
+	"research": "oil-extractor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
