@@ -10,11 +10,11 @@
 		"power": 2.5,
 		"items": {
 			"items": [
-				{"item": "silicon", "amount": 25},
-				{"item": "redstone", "amount": 50},
-				{"item": "titanium", "amount": 75},
-				{"item":"surge-alloy","amount":10},
-				{"item": "graphite", "amount":100},
+				{"item": "silicon", "amount": 20},
+				{"item": "redstone", "amount": 30},
+				{"item": "titanium", "amount": 20},
+				{"item":"surge-alloy","amount":3},
+				{"item": "graphite", "amount":15},
 				{"item": "redBullet", "amount": 1}
 			]
 		}
